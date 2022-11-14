@@ -4,7 +4,8 @@ pkgs.mkShell {
   buildInputs = with pkgs;
   [
     solc
-    nodejs
+    nodejs-18_x
+    tilt
   ];
 }
 
